@@ -72,37 +72,37 @@ class VEMLClass {
     /**
      * @brief Get RED channel value
      *
-     * @return int16_t Channel value
+     * @return uint16_t Channel value
      */
-    int16_t getRed(void);
+    uint16_t getRed(void);
 
     /**
      * @brief Get GREEN channel value
      *
-     * @return int16_t Channel value
+     * @return uint16_t Channel value
      */
-    int16_t getGreen(void);
+    uint16_t getGreen(void);
 
     /**
      * @brief Get BLUE channel value
      *
-     * @return int16_t Channel value
+     * @return uint16_t Channel value
      */
-    int16_t getBlue(void);
+    uint16_t getBlue(void);
 
     /**
      * @brief Get INFRARED(IR) channel value
      *
-     * @return int16_t Channel value
+     * @return uint16_t Channel value
      */
-    int16_t getIR(void);
+    uint16_t getIR(void);
 
     /**
      * @brief Get CLEAR channel value
      *
-     * @return int16_t Channel value
+     * @return uint16_t Channel value
      */
-    int16_t getClear(void);
+    uint16_t getClear(void);
 
     /**
      * @brief Return device ID from sensor

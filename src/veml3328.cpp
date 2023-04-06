@@ -63,15 +63,15 @@ void VEMLClass::shutdown(void) {
     regWrite(POINTER_CONFIG, ((1 << 15) | (1 << 0)));
 }
 
-int16_t VEMLClass::getRed(void) { return regRead(POINTER_RED); }
+uint16_t VEMLClass::getRed(void) { return regRead(POINTER_RED); }
 
-int16_t VEMLClass::getGreen(void) { return regRead(POINTER_GREEN); }
+uint16_t VEMLClass::getGreen(void) { return regRead(POINTER_GREEN); }
 
-int16_t VEMLClass::getBlue(void) { return regRead(POINTER_BLUE); }
+uint16_t VEMLClass::getBlue(void) { return regRead(POINTER_BLUE); }
 
-int16_t VEMLClass::getIR(void) { return regRead(POINTER_IR); }
+uint16_t VEMLClass::getIR(void) { return regRead(POINTER_IR); }
 
-int16_t VEMLClass::getClear(void) { return regRead(POINTER_CLEAR); }
+uint16_t VEMLClass::getClear(void) { return regRead(POINTER_CLEAR); }
 
 uint16_t VEMLClass::deviceID(void) {
     return (regRead(POINTER_DEVICE_ID) & 0xFF); // LSB data
