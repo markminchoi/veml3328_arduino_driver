@@ -25,8 +25,8 @@ uint16_t regRead(uint8_t reg_ptr);
 VEMLClass Veml3328 = VEMLClass::instance();
 
 static uint8_t initalize(void) {
-    WIRE.swap(2);
-    WIRE.begin();
+    // WIRE.swap(2);
+    // WIRE.begin();
 
     /* Wake up device */
     return Veml3328.wake();
